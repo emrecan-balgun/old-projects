@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Progress Steps</title>
+  </head>
+  <body class="bg-light">
+    <div class="text-center">
+      <div class="progressContainer">
+        <div class="progress bg-primary" id="progress" style="width: 0%; height: 5px;"></div>
+        <span class="badge p-2 border border-primary border-3 rounded-circle bg-light text-muted transition">1</span>
+        <span class="badge p-2 border border-3 rounded-circle bg-light text-muted transition">2</span>
+        <span class="badge p-2 border border-3 rounded-circle bg-light text-muted transition">3</span>
+        <span class="badge p-2 border border-3 rounded-circle bg-light text-muted transition">4</span>
+    </div>
+    <div class="mt-4">
+      <button type="button" class="px-3 py-2 btn btn-primary me-3" id="prev">Prev</button>
+      <button type="button" class="px-3 py-2 btn btn-primary" id="next">Next</button>
+    </div>
+  </div>
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+  <script src="app.js"></script>
+</html>
