@@ -1,0 +1,40 @@
+.alignmentCenter {
+    min-height: 100%;  
+    min-height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.panel {
+    border-radius: 50px;
+    height: 90vh;
+    margin-top: 30px;
+    margin-right: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+    transition: flex 0.7s ease-in;
+}
+
+.panel.w-100 {
+    flex: 5;
+}
+
+.panel h1 {
+    position: absolute;
+    margin: 0;
+    opacity: 0;
+    bottom: 10px;
+    left: 20px;
+    color: #fff;
+}
+
+.panel.w-100 h1 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
