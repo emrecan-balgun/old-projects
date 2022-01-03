@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    min-height:100vh;
+    display:grid;
+    place-content:center;
+    background-color: steelblue;
+    color: #fff;
+}
+
+form {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+}
+
+form h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom:15px;
+    position:relative;
+    border-bottom:1px solid #ddd;
+}
+
+input {
+    width:100%;
+    padding: 15px 0;
+    margin-top:20px;
+    background-color: transparent;
+    border:none;
+    outline:none;
+    color: #fff;
+    font-size: 16px;
+}
+
+input::placeholder {
+    opacity:0;
+}
+
+form p {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+form p a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+span {
+    font-size: 22px;
+    position:absolute;
+    top:0;
+    left:0;
+    transform:translateY(30px);
+    transition-duration:300ms;
+}
+
+button {
+    padding:15px 0px; 
+    margin-top:20px;
+    border-radius: 5px;
+    background:lightblue;;
+    color:#fff;
+    cursor:pointer;
+    border: 0;
+    font-size: 16px;
+    color: black;
+}
+
+button:hover {
+    box-shadow: 0px 15px 25px -5px rgba(darken(dodgerblue, 40%));
+    transform: scale(1.03);
+}
+
+button:active {
+    box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
+    transform: scale(.98);
+}
+
+label:focus-within > span,
+input:not(:placeholder-shown) + span {
+    color:lightblue;
+    transform:translateY(0px);
+}
