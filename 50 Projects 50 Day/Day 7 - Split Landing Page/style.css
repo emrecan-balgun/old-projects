@@ -1,0 +1,94 @@
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.split {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.left {
+    background-image: url("https://images4.alphacoders.com/111/thumb-1920-1113741.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.right {
+    background-image: url("https://cdn.webrazzi.com/uploads/2019/12/xbox-series-x-171.jpg");
+    background-size: cover;
+    background-position: center cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 0.2rem;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 15rem;
+    padding: 1.5rem;
+}
+
+.split.left:hover {
+    width: 100%;
+}
+
+.split.right:hover {
+    width: 100%;
+}
+
+.split.left .button:hover {
+    background-color: rgba(87, 84, 236, 1);
+    border-color: rgba(87, 84, 236, 1);
+  }
+  
+.split.right .button:hover {
+background-color: rgba(28, 122, 28, 1);
+border-color: rgba(28, 122, 28, 1);
+}
+
+.split.left,
+.split.right,
+.split.right::before,
+.split.left::before {
+    transition: all 1000ms ease-in-out;
+}
+
+.hover-left .left {
+    width: 75%;
+}
+
+.hover-left .right {
+    width: 25%;
+}
+
+.hover-right .right {
+    width: 75%;
+}
+
+.hover-right .left {
+    width: 25%;
+}
