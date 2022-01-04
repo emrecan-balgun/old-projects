@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+body {
+  background-color: #8e44ad;
+  color: #fff;
+  font-family: 'Roboto Mono', sans-serif;
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.counter h1 {
+    margin: 0;
+    font-size: 60px;
+}
+
