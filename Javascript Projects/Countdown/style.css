@@ -1,0 +1,36 @@
+.bgColor {
+    background-color: hsl(210, 36%, 96%);
+}
+
+h2, h5 {
+    letter-spacing: 0.25rem;
+    line-height: 1;
+}
+
+h3 {
+    line-height: 1;
+    letter-spacing: 0.25rem;
+}
+
+.textColor {
+    color: hsl(205, 72%, 37%);
+}
+
+.pAttr {
+    margin: 2rem 0;
+    color: hsl(209, 23%, 60%);
+    font-size: 1.25rem;
+}
+
+.upperCase {
+    text-transform: uppercase;
+}
+
+#counter {
+    display: flex;
+}
+
+.countDown {
+    width: 15%;
+    background-color: hsl(209, 61%, 16%);
+}
