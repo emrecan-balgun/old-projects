@@ -1,0 +1,46 @@
+.bodyAttr {
+    font-family: "Open Sans", sans-serif;
+    background-color: hsl(210, 36%, 96%);
+    line-height: 1.5;
+    color: hsl(209, 61%, 16%);
+}
+
+.alignmentCenter {
+    min-height: 60%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 60vh; /* These two lines are counted as one :-) */    
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formBox {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    transition: all 0.3s linear;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4 {
+    letter-spacing: 0.25rem;
+    text-transform: capitalize;
+    color: hsl(205, 86%, 17%);
+}
+
+#inputText {
+    background-color: transparent;
+    letter-spacing: 0.25rem;
+}
+
+#newValue:hover {
+    background-color: hsl(210, 36%, 96%);
+}
+
+.alertMessage {
+    letter-spacing: 0.25rem;
+    text-transform: capitalize;
+    font-size: 0.7rem;
+    border-radius: 0.25rem;
+}
