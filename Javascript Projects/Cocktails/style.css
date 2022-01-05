@@ -1,0 +1,91 @@
+* {
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+    background-color: hsl(210, 36%, 96%);
+    color: hsl(209, 61%, 16%);
+}
+
+.bgColor {
+    background-color: hsl(210, 36%, 96%);
+}
+
+.alignmentCenter {
+    min-height: 30%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 30vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 0.25rem;
+}
+
+.cardAttr {
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition:  all 0.3s linear;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.cardAttr:hover img {
+    filter: blur(2px) grayscale(50%);
+}
+
+.cardAttr img {
+    width: 100%;
+    display: block;
+    border-radius: 0.5rem;
+    border: 10px solid #fff;
+    transition: all 0.3s linear;
+    height: 268px;
+    object-fit: cover;
+}
+
+.cardAttr h3 {
+    position: absolute;
+    bottom: -1rem;
+    right: -1rem;
+    background: #222;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}
+
+.drinkCard {
+    width: 85vw;
+    max-width: 1170px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition:  all 0.3s linear;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.drinkImg {
+    width: 100%;
+    height: 400px;
+    display: block;
+    border-radius: 0.5rem;
+    border: 10px solid #fff;
+    transition: all 0.3s linear;
+    object-fit: cover;
+}
+
+p {
+    color: hsl(210, 22%, 49%);
+}
+
+#returnButton {
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+}
