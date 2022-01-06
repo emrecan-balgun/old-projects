@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Tabs</title>
+    <style>
+        .container, .row, .justify-content-center, .align-items-center {
+            height: 100%;
+            min-height: 100%;
+        }
+        .bgColor {
+            background-color: hsl(210, 36%, 96%);
+        }
+        .cardBgColor {
+            background-color: orange;
+        }
+    </style>
+  </head>
+  <body class="bgColor row h-100 justify-content-center align-items-center text-center">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                <div class="mt-5 mb-5">
+                    <h1 class="display-1">About</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam!</p>
+                </div>
+              </div>
+              <div class="col-12">
+                  <div class="container">
+                    <div class="row gx-5">
+                        <div class="col">
+                            <img class="img-fluid" src="https://vannilla-js-basic-project-11-tabs.netlify.app/hero-bcg.jpeg" style="border-radius: 5%;">
+                          </div>
+                          <div class="col">
+                            <div class="row row-cols-1 cardBgColor px-2" style="border-radius: 5%;">
+                                <div class="col btn-group mt-2" role="group" style="border-radius: 5%;">
+                                    <button type="button" id="history" class="btn btn-outline-dark">History</button>
+                                    <button type="button" id="vision" class="btn btn-outline-dark">Vision</button>
+                                    <button type="button" id="goals" class="btn btn-outline-dark">Goals</button>
+                                    </div>
+                                <div class="col mt-3 ms-1" style="text-align: left;">
+                                    <h4 id="infoTitle"></h4>
+                                    <p id="infoDescription"></p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  
+              </div>
+          </div>
+      </div>
+    
+
+   
+
+    
+    
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+  <script src="tabs.js"></script>
+</html>
