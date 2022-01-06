@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Tip Calculator</title>
+  </head>
+  <body class="bg-dark">
+    <div class="container">
+        <div class="alignmentCenter">
+            <div class="bgCard p-4">
+                <h1 class="display-3">Tip Calculator</h1>
+                <div id="tipForm">
+                    <div class="input-group mb-3 mt-4">
+                        <span class="input-group-text">$</span>
+                        <input type="text" class="form-control" placeholder="Total Bill" id="totalBill">
+                    </div>
+                    <div class="input-group mb-3 mt-4">
+                        <span class="input-group-text me-2">Tip</span>
+                        <input type="range" class="form-range mt-1" id="tipRange" style="float: left; width: 78%;">
+                        <span class="input-group-text ms-2 rounded" id="tipValue">0%</span>
+                    </div>
+                    <hr class="mt-4 mb-3">
+                    <div id="results" style="display: none;">
+                        <h1 class="display-6 mb-3">Results</h1>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Tip amount</span>
+                            <input type="text" class="form-control" placeholder="0,00" id="tipAmount">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Total Bill with Tip</span>
+                            <input type="text" class="form-control" placeholder="0,00" id="totalAmount">
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
