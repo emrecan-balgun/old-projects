@@ -1,0 +1,13 @@
+.questionForm {
+    text-align: left;
+}
+
+.questionTitle {
+    color: #999da1;
+}
+
+#wrapper button {
+    display: block;
+    text-transform: uppercase;
+    width: 25%;
+}

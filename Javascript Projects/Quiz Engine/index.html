@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Quiz Engine</title>
+  </head>
+  <body class="bg-light">
+    <div class="container">
+        <div class="row text-center">
+            <h1 class="display-3 mt-5" id="mainTitle">Awesome Quiz Engine</h1>
+            <p class="lead" id="points" style="display: none;"></p>
+            <div class="questionForm mt-5" id="questionForm">
+                <h2 class="questionTitle"></h2>
+                <div id="wrapper">
+                    <button type="button" class="btn btn-info py-2 mt-5" id="answer1"></button>
+                    <button type="button" class="btn btn-info py-2 mt-5" id="answer2"></button>
+                    <button type="button" class="btn btn-info py-2 mt-5" id="answer3"></button>
+                    <button type="button" class="btn btn-info py-2 mt-5" id="answer4"></button>
+                </div>
+                <hr class="mt-5 mb-4">
+                <p class="lead" id="questionCounter"></p>
+                <p class="lead">Made with Javascript, HTML5, and CSS! Plus love. -Jason Chan</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+  <script src="app.js"></script>
+</html>
