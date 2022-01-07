@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Random Person</title>
+  </head>
+  <body>
+    <div class="block bgBlack"></div>
+    <div class="block">
+        <div class="cardAttr">
+            <img src="" class="userImg" id="userImg">
+            <p class="userTitle" id="userTitle"></p>
+            <p class="userValue" id="userValue"></p>
+            <div class="mt-4">
+                <ul class="valueList">
+                    <li><button class="btn" id="userName"><i class="icon fas fa-user fa-3x px-2" id="iconName"></i></button></li>
+                    <li><button class="btn" id="userEmail"><i class="icon fas fa-envelope-open fa-3x px-2" id="iconEmail"></i></button></li>
+                    <li><button class="btn" id="userAge"><i class="icon fas fa-calendar-times fa-3x px-2" id="iconAge"></i></button></li>
+                    <li><button class="btn" id="userLocation"><i class="icon fas fa-map fa-3x px-2" id="iconLocation"></i></button></li>
+                    <li><button class="btn" id="userPhone"><i class="icon fas fa-phone fa-3x px-2" id="iconPhone"></i></button></li>
+                    <li><button class="btn" id="userPassword"><i class="icon fas fa-user-lock fa-3x px-2" id="iconPassword"></i></button></li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-primary px-4 py-2 mt-3" id="randomUser">random user</button>
+        </div>
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+  <script src="random.js"></script>
+</html>
