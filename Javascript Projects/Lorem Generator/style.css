@@ -1,0 +1,28 @@
+.container, .row, .justify-content-center, .align-items-center {
+    height: 100%;
+    min-height: 100%;
+}
+
+.bgColor {
+    background-color: hsl(210, 36%, 96%);
+}
+
+.titleAttr {
+    color: hsl(205, 86%, 17%);
+    letter-spacing: 0.25rem;
+    font-size: 1.75rem;
+}
+
+input {
+    padding: 0.25rem 0.5rem;
+}
+
+.textAttr {
+    color: hsl(205, 86%, 17%);
+    letter-spacing: 0.25rem;
+    font-size: 1.25rem;
+}
+
+.loremText {
+    color: hsl(210, 22%, 49%);
+}
