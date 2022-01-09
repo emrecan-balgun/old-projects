@@ -1,0 +1,50 @@
+.impact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.color-gray {
+    color: #888;;
+}
+
+.color-white {
+    color: white;
+}
+
+.showcase {
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	text-align: center;
+}
+
+.card-img {
+    width: 232px;
+    height: 119px;
+}
+
+.hr-logo {
+    position: relative;
+    text-align: center;
+}
+
+.hr-logo hr {
+    color: white;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    right: 0;
+}
+
+.hr-logo .logo {
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+  }
