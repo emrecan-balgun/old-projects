@@ -1,0 +1,30 @@
+.input { 
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:100%;
+}
+
+.no-underline {
+    text-decoration: none !important;
+}
+
+.footer-bg {
+    background-color: #002240;
+}
+
+.link a:hover {
+    border-bottom: 2px solid white;
+}
+
+.menu li:hover {
+    font-weight: bolder;
+    color: black;
+}
+
+.menu li {
+    margin-top: 10px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ccc;
+}
