@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+}
+
+.alignmentCenter {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fullPageImage {
+    background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)), url("https://vannilla-js-basic-project-10-scroll.netlify.app/hero-bcg.jpeg") center/cover no-repeat;
+    height: 100%;
+}
+
+.titleAttr {
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+.buttonAttr {
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+.liItem {
+    text-transform: capitalize;
+    letter-spacing: 0.25rem;
+    display: block;
+    font-weight: bold;
+    margin: 0 1rem;
+}
+
+.aboutUs {
+    height: 80vh;
+    background-color: hsl(209, 28%, 39%)
+}
+
+.ourServices {
+    height: 80vh;
+    background-color: hsl(210, 22%, 49%);
+}
+
+.featuredTours {
+    height: 80vh;
+    background-color: hsl(209, 28%, 39%)
+}
+
+.title h2 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footerAttr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: hsl(209, 61%, 16%);
+}
+
+/* .fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+} */
