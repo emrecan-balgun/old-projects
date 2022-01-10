@@ -1,0 +1,42 @@
+.header-color {
+    background-color: #35424a;
+}
+
+a:hover{
+    color:#cccccc !important;
+    font-weight:bold;
+}
+
+.text-orange {
+    color: #e8491d;
+}
+
+.footer-bg {
+    background-color: #e8491d;
+}
+
+.content-bg {
+    background-color: #f4f4f4;
+}
+
+.content-bg-dark {
+    background-color: #35424a;
+}
+
+.card-bg {
+    background-color: #e6e6e6;
+}
+
+.img-top {
+    width: 90px;
+    height: 90px;
+}
+
+.showcase {
+    min-height: 400px;
+    background: url(https://jolly-kalam-23776e.netlify.app/corps/img/showcase.jpg) no-repeat 0 -400px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
