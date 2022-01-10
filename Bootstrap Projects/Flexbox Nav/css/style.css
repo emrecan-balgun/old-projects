@@ -1,0 +1,26 @@
+.video-fluid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+	height: 100%;
+    overflow: hidden;
+}
+
+.content {
+    position: absolute;
+}
+
+.showcase {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	padding: 0 20px;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: black !important;
+}
