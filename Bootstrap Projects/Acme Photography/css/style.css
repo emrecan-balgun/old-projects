@@ -1,0 +1,11 @@
+* {
+    background-color: white;
+}
+
+.bg-gray {
+    background-color: #eee;
+}
+
+.full-page-height {
+    height: 100vh;
+}
