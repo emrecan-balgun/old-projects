@@ -1,0 +1,16 @@
+.alignmentCenter {
+    min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 50vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.countdown {
+    border: 7px solid #111b1d;
+    margin: 20px auto 10px auto;
+    width: min-content;
+    text-align: center;
+}
