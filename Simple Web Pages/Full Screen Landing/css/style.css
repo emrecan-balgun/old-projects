@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:17px;
+    color:#926239;
+    line-height:1.6;
+}
+
+.header {
+    background-image: url('../assets/beach.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+    line-height: 1.2;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-bottom: -25px;
+}
+
+.header .btn {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #926239;
+    border: #926239 1px solid;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.header .btn:hover {
+    background-color: #926239;
+    color: white;
+}
+
+.header p {
+    font-size: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.article-1 {
+    padding:20px;
+    background:#926239;
+    color:#fff;
+    text-align:center;
+}
+
+.article-2 {
+    padding: 20px;
+    background: white;
+    color: #926239;
+    text-align: center;
+}
+
+.article-3 {
+    display: flex;
+}
+
+.article-3 .card {
+    width: 33%;
+    padding: 20px;
+    background: white;
+    color: #926239;
+    background-color: #926239;
+    color: white;
+}
+
+.article-3 .card-bg {
+    background-color: white;
+    color: #926239;
+}
