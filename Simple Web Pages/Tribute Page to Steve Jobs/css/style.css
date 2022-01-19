@@ -1,0 +1,46 @@
+/* Layout - Start */
+
+body {
+    display: block;
+    margin: 33px 100px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.spec {
+    padding: 50px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.size-large {
+    font-size: 36px;
+}
+
+.size-medium {
+    font-size: 30px;
+}
+
+.size-normal {
+    font-size: 24px;
+}
+
+.center {
+    text-align: center;
+}
+
+.border {
+    padding: 4px;
+    border: 1px solid #ddd;;
+    border-radius: 4px;
+}
+
+.img-border {
+    border-radius: 250px;
+}
+
+.img-bottom {
+    padding: 10px;
+    background-color: #ddd;;
+}
+
+/* Layout - End */
