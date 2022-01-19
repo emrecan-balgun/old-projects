@@ -4,3 +4,4 @@
 - Bootstrap Projects
 - Javascript Projects
 - Redux Projects
+- Simple Web Pages
