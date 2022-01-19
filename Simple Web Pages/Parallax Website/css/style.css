@@ -1,0 +1,147 @@
+/* Layout - Start */
+body, html {
+    height: 100%;
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+  }
+  
+.parallax1 {
+    /* The image used */
+    background-image: url('../assets/photo1.jpg');
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-filter: opacity(70%);
+    filter: opacity(70%);
+  }
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../assets/photo3.jpg");
+  
+    /* Set a specific height */
+    height: 60%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-filter: opacity(70%);
+    filter: opacity(70%);
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("../assets/photo2.jpg");
+  
+    /* Set a specific height */
+    height: 60%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-filter: opacity(70%);
+    filter: opacity(70%);
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("../assets/photo4.jpg");
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-filter: opacity(70%);
+    filter: opacity(70%);
+}
+
+.center {
+    text-align: center;
+}
+
+.box {
+    margin-top: 330px;
+    display: inline-block;
+    padding: 20px;
+    letter-spacing: 8px;
+    border-radius: 1px;
+    color: white;
+    border: 1px solid #111;
+    background-color: #111
+}
+
+.lorem-text {
+    display: block;
+    background-color: #f4f4f4;
+    color: #666;
+    padding: 10px;
+}
+
+.lorem-text2 {
+    display: block;
+    background-color: #282e34;
+    color: #ddd;
+    padding: 10px;
+}
+
+.text-margin {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.text1 {
+    margin-left: 580px;
+    margin-top: 150px;
+    display: inline-block;
+    padding: 20px;
+    letter-spacing: 8px;
+    color: white;
+}
+
+.text2 {
+    margin-left: 580px;
+    margin-top: 200px;
+    display: inline-block;
+    padding: 20px;
+    letter-spacing: 8px;
+    color: white;
+}
+
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax1 {
+      background-attachment: scroll;
+    }
+    .parallax2 {
+        background-attachment: scroll;
+    }
+    .parallax3 {
+    background-attachment: scroll;
+    }
+    .parallax4 {
+    background-attachment: scroll;
+    }
+  }
+
+
+/* Layout - End */
