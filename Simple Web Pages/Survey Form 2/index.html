@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <!-- Header - Start -->
+    <header class="center">
+        <h1 class="title--text">Good Vibes Form</h1>
+    </header>
+    <!-- Header - End -->
+
+    <!-- Content - Start -->
+    <section>
+        <!-- Article - Start -->
+        <article class="master">
+            <p>Tell us something positive that happened to you today.</p>
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Enter your name">
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="Enter your email adress">
+            <label for="scale">On a scale of 1-10, how good was it?</label>
+            <input type="number" name="scale" min="1" max="10" placeholder="Enter a number between 1 and 10">
+            <label for="where">Where did it happen?</label>
+            <select name="where" class="dropdown">
+                <option value="" disabled selected hidden>At home</option>
+                <option value="home">At home</option>
+                <option value="on-my-commute">On my commute</option>
+                <option value="at-work">At work</option>
+                <option value="on-the-street">On the street</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="time">At what time of day did it happen?</label>
+            <div>
+                <input type="radio" name="time" value="morning">Morning<br>
+                <input type="radio" name="time" value="afernoon">Afternoon<br>
+                <input type="radio" name="time" value="evening">Evening  
+            </div>
+
+            <label for="experience">What emotions did you experience?<br>(Select all that apply)</label>
+            <div>
+                <input type="checkbox" name="excited" value="excited">Excited<br>
+                <input type="checkbox" name="humbled" value="humbled">Humbled<br>
+                <input type="checkbox" name="elated" value="elated">Elated<br>
+                <input type="checkbox" name="loved" value="loved">Loved<br>
+                <input type="checkbox" name="enthusiastic" value="enthusiastic">Enthusiastic<br>
+            </div>
+
+            <label for="describe-experience">Please describe your positive experience.</label>
+            <textarea name="text-area" cols="40" rows="3" placeholder="Enter your experience here..."></textarea>
+            <br>
+            <button class="btn" type="submit">Submit</button>
+        </article>
+        <!-- Article - End -->
+    </section>
+    <!-- Content - End -->
+</body>
+</html>

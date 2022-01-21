@@ -1,0 +1,132 @@
+/* Layout - Start */
+body {
+    background-color: #a9d7e9;
+}
+
+.card {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.title--text {
+    font-size: 42px;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.master {
+    margin: auto;
+    width: 800px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 20px 10px 10px 10px;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+article label {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+article input[type=text] {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    width: 25%;
+    margin-top: 12px;
+    text-align: start;
+    border-radius: 5px;
+}
+
+article input[type=number] {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    width: 25%;
+    margin-top: 12px;
+    text-align: start;
+    border-radius: 5px;
+}
+
+article input[type=radio] {
+    position: relative;
+    display: inline-block;
+    margin-left: 350px;
+    padding-bottom: 10px;
+}
+
+article input[type=checkbox] {
+    position: relative;
+    display: inline-block;
+    margin-left: 350px;
+    padding-bottom: 10px;
+}
+
+.dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 15px 10px 10px 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+}
+
+article textarea {
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-left: 49%;
+    border-radius: 5px;
+    color: white;
+    background-color: #6ba2ce;
+    border: 0px solid;
+    padding: 10px;
+}
+
+div input[type=radio] {
+    margin-top: -30px;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+div input[type=checkbox] {
+    margin-top: -25px;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+
+/* Layout - End */
