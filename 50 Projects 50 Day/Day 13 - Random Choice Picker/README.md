@@ -1,4 +1,4 @@
 # 50 Projects 50 Day 
 
-## Day 9 | Sound Board
-![Screenshot](day9.jpg)
+## Day 13 | Random Choice Picker
+![Screenshot](day13.jpg)
