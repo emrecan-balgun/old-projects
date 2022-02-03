@@ -1,4 +1,6 @@
 # 50 Projects 50 Day 
 
-## Day 9 | Sound Board
-![Screenshot](day9.jpg)
+## Day 18 | Background Slider
+![Screenshot](day18.jpg)
+
+![Screenshot](day18-2.jpg)
