@@ -18,12 +18,12 @@ const reset = document.getElementById('reset')
 breakLength.innerHTML = 1;
 sessionLength.innerHTML = 1;
 caseName.innerHTML = "Session";
-counter.innerHTML = "01:00";
+counter.innerHTML = "02:00";
 
 // Functions
 function down(elementName) {
     let newValue = Number(elementName.innerHTML) - Number(1);
-    if(elementName.innerHTML == 1) {
+    if(elementName.innerHTML == 120) {
         // console.log("sinira ulasti")
     } else {
         if(newValue < 10) {
